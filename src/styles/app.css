@@ -1,0 +1,48 @@
+.main{
+    margin: 20px auto;
+    padding: 20px 20px;
+    max-width: 1400px;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.app-main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.app-pages{
+    margin:auto 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-filter{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+
+.app-body{
+    border: 2px solid black;
+    padding: 5px 10px;
+    overflow-x: auto;
+}
+
+.table {
+    min-width: 500px;
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td{
+    padding: 0 0 0 10px;
+}
